@@ -43,6 +43,7 @@
     font-size : 24px;
     letter-spacing: 3px;
   }
+  
 
   .container h3{
     margin-top: 50px;
@@ -187,3 +188,14 @@
    text-align: center;
   }
 
+ @media (min-width: 0px) and (max-width: 1600px){
+  
+  .hero{
+    height: 110vh;
+  }
+
+  .grid-container{
+    justify-content: start;
+  }
+
+ }
